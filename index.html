@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="calculator-container">
+        <div class="h1">Monkey Calculator</div>
+        <div class="output-screen">
+            <div class="del-container">
+                <button onclick="c()" class="number-input del">Clear</button>
+                <button onclick="del()" class="number-input del">Del</button>
+            </div>
+            <div id="display-on" class="output-text"></div>
+            <div id="output" class="output-text">0</div>
+            
+        </div>
+        <div class="button-container">
+            <div class="real-button-container">
+                
+                
+                <div class="row1 row">
+                    <button onclick="seven()" class="number-input">7</button>
+                    <button onclick="eight()" class="number-input">8</button>
+                    <button onclick="nine()" class="number-input">9</button>
+                </div>
+                
+                <div class="row2 row">
+                    <button onclick="four()" class="number-input">4</button>
+                    <button onclick="five()" class="number-input">5</button>
+                    <button onclick="six()" class="number-input">6</button>
+                </div>
+    
+                <div class="row3 row">
+                    <button onclick="one()" class="number-input">1</button>
+                    <button onclick="two()" class="number-input">2</button>
+                    <button onclick="three()" class="number-input">3</button>
+                </div>
+    
+                <div class="row4 row">
+                    <button onclick="zero()" class="number-input zero">0</button>
+                    <button onclick="dot()"class="number-input">.</button>
+                    <button onclick="enter()" class="number-input">=</button>
+                </div>
+            </div>
+            
+            <div class="row2 rowO">
+                <button onclick="han()" class="number-input">/</button>
+                <button onclick="kun()" class="number-input">*</button>
+                <button onclick="lob()" class="number-input">-</button>
+                <button onclick="plus()" class="number-input">+</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
